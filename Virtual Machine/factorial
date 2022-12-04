@@ -1,0 +1,11 @@
+input 100
+var 110 0
+var 111 1
+var 112 1
+mult 112 112 100
+minus 100 100 111
+if 100 == 110
+goto 26
+goto 11
+output 112
+exit
