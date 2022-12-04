@@ -1,0 +1,13 @@
+input 100
+input 101
+if 100 == 101
+goto 18
+if 100 > 101
+goto 21
+goto 27
+output 100
+exit
+minus 100 100 101
+goto 4
+minus 101 101 100
+goto 4
